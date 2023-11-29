@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 01</title>
+    <meta name="robots" content="noindex" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="cv-document">
+      <div class="cv-page">
+        <!-- THÔNG TIN CÁ NHÂN -->
+        <div class="section" id="info">
+          <div class="section-content">
+            <!-- đặt tiêu đề h1 -->
+            <h1>Hoàng Văn Bình</h1>
+
+            <!-- tạo danh sách thông tin cá nhân dạng bảng -->
+            <table>
+              <tr>
+                <td><strong>Ngày sinh</strong></td>
+                <td>12/03/1993</td>
+              </tr>
+              <tr>
+                <td><strong>Giới tính</strong></td>
+                <td>Nam</td>
+              </tr>
+              <tr>
+                <td><strong>Điện thoại</strong></td>
+                <td>(+84) 398487831</td>
+              </tr>
+              <tr>
+                <td><strong>Email</strong></td>
+                <td>binhhvFX23362@funix.edu.vn</td>
+              </tr>
+              <tr>
+                <td><strong>Địa chỉ</strong></td>
+                <td>Tp.Thủ Đức,Hồ Chí Minh, Việt Nam</td>
+              </tr>
+              <tr>
+                <td><strong>Website</strong></td>
+                <td>https://www.facebook.com/hoangbinhBalpha?</td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- đặt class cho hình ảnh là avatar -->
+          <div class="avatar">
+            <img src="images/default-avatar.png" alt="avatar" />
+          </div>
+        </div>
+
+        <!-- MỤC TIÊU NGHỀ NGHIỆP -->
+        <div class="section" id="target">
+          <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+
+          <div class="section-content">
+            <p>
+              Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+              của FUNiX. Em mong muốn mình sẽ đi làm việc với vị trí Fullstack
+              Developer, có thể vận dụng những kiến thức đã được trau dồi và
+              không ngừng học hỏi phát triển bản thân, cũng như hoàn thành tốt
+              nhất công việc được giao.
+            </p>
+          </div>
+        </div>
+
+        <!-- HỌC VẤN -->
+        <div class="section" id="education">
+          <h2 class="section-title">Học vấn</h2>
+          <div class="section-content">
+            <ul class="timeline">
+              <li>
+                <div class="education-line-1">
+                  <div class="education-line-1--left">06/2021 - 05/2022</div>
+                  <div class="education-line-1--right">
+                    <strong>FUNiX</strong><br />
+                    Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.<br />
+                    GPA: 9 / 10
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="education-line-2">
+                  <div class="education-line-2--left">08/2016 - 07/2019</div>
+                  <div class="education-line-2--right">
+                    <strong>Cử nhân - ĐH FPT</strong><br />
+                    Chuyên ngành: Kỹ thuật phần mềm.<br />
+                    GPA: 3.2 / 4
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- KINH NGHIỆM LÀM VIỆC -->
+        <div class="section" id="experience">
+          <h2 class="section-title">Kinh nghiệm làm việc</h2>
+          <div class="section-content">
+            <ul class="timeline">
+              <li>
+                <div class="experience-line-1">
+                  <div class="experience-line-1--left">05/2022 - Hiện tại</div>
+                  <div class="experience-line-1--right">
+                    <strong>Công ty Y</strong><br />
+                    Full Stack Developer<br />
+                    - Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu
+                    đã có.<br />
+                    - Phân tích và thiết kế Database, sử dụng các hệ quản trị
+                    CSDL (MySQL, SQLServer,NoSQL, …) và viết được các câu truy
+                    vấn.<br />
+                    - Sử dụng ngôn ngữ server-side (Python, Java, …) để xây dựng
+                    các Web Server
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="experience-line-2">
+                  <div class="experience-line-2--left">06/2021 - 04/2022</div>
+                  <div class="experience-line-2--right">
+                    <strong>Công ty X</strong><br />
+                    Web Designer<br />
+                    - Thiết kế Website dự trên yêu cầu của khách hàng.<br />
+                    - Sử dụng các công cụ: Figma, Canva, PTS.<br />
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- HOẠT ĐỘNG -->
+        <div class="section" id="activity">
+          <h2 class="section-title">Hoạt động</h2>
+          <div class="section-content">
+            <div class="activity-line-1">
+              <div class="activity-line-1--left">03/2019 - 05/2019</div>
+              <div class="activity-line-1--right">
+                <strong>FPT Edu Hackathon 2019</strong><br />
+                Giải 3 bảng A<br />
+                Đề tài: Trang web về phân loại rác thải.
+              </div>
+            </div>
+            <div class="activity-line-2">
+              <div class="activity-line-2--left">08/2016 - 08/2017</div>
+              <div class="activity-line-2--right">
+                <strong>Câu lạc bộ Z</strong><br />
+                Trưởng ban chuyên môn
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- KỸ NĂNG -->
+        <div class="section" id="skill">
+          <h2 class="section-title">Kỹ năng</h2>
+          <div class="section-content">
+            <div class="skill-line-1">
+              <div class="skill-line-1--left"><strong>HTML/CSS</strong></div>
+              <div class="skill-line-1-right">Fundamental</div>
+            </div>
+
+            <div class="skill-line-2">
+              <div class="skill-line-2--left"><strong>Javascript</strong></div>
+              <div class="skill-line-2--right">Intermediate</div>
+            </div>
+
+            <div class="skill-line-3">
+              <div class="skill-line-3--left"><strong>NodeJS</strong></div>
+              <div class="skill-line-3--right">Intermediate</div>
+            </div>
+
+            <div class="skill-line-4">
+              <div class="skill-line-4--left"><strong>Bootstrap 5</strong></div>
+              <div class="skill-line-4--right">Fundamental</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CHỨNG NHẬN-GIẢI THƯỞNG -->
+        <div class="section" id="certificate">
+          <h2 class="section-title">Chứng nhận - Giải thưởng</h2>
+          <div class="section-content">
+            <div class="certificate-line-1">
+              <div class="certificate-line-1--left">2021</div>
+              <div class="certificate-line-1--right">
+                CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX
+              </div>
+            </div>
+
+            <div class="certificate-line-2">
+              <div class="certificate-line-2--left">2021</div>
+              <div class="certificate-line-2--right">
+                CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT - FUNIX
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SỞ THÍCH -->
+        <div class="section" id="hobby">
+          <h2 class="section-title">Sở thích</h2>
+          <div class="section-content">
+            <ul>
+              <li>Âm nhạc</li>
+              <li>Chơi game</li>
+              <li>Du lịch</li>
+              <li>Nấu ăn</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- DỰ ÁN  -->
+        <div class="section" id="project">
+          <h2 class="section-title">Dự án</h2>
+          <div class="section-content">
+            <h2>TRANG WEB QUẢN LÝ THÚ CƯNG</h2>
+            <p>2021</p>
+            <ul>
+              <li><strong>Vị trí:</strong> Developer.</li>
+              <li>
+                <strong> Mô tả:</strong>Ứng dụng giúp quản lý các thông tin của
+                thú cưng như: Cân nặng, giống, tình trạng tiêm chủng, ... Bao
+                gồm các chức năng thêm / sửa / xóa.
+              </li>
+              <li>
+                <strong>Nhiệm vụ:</strong> Phát triển, tối ưu code và xử lý lỗi.
+              </li>
+              <li><strong>Công nghệ:</strong> HTML, CSS.</li>
+            </ul>
+            <h2>TRANG WEB XEM TIN TỨC</h2>
+            <p>2021</p>
+            <ul>
+              <li><strong>Vị trí:</strong> Developer.</li>
+              <li>
+                <strong>Mô tả:</strong> Trang Web xem tin tức từ nhiều nguồn
+                khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo cá
+                khóa.
+              </li>
+              <li>
+                <strong>Nhiệm vụ:</strong> Phát triển, tối ưu code và xử lý lỗi.
+              </li>
+              <li><strong>Công nghệ:</strong> HTML, CSS.</li>
+            </ul>
+            <h2>CV CÁ NHÂN</h2>
+            <p>2021</p>
+            <ul>
+              <li><strong>Vị trí:</strong> Developer.</li>
+              <li>
+                <strong>Mô tả:</strong> Trang Web CV cá nhân online. Gồm các
+                thông tin cá nhân cũng như kỹ năng nghề nghiệp.
+              </li>
+              <li>
+                <strong>Nhiệm vụ:</strong> Phát triển, tối ưu code và xử lý lỗi.
+              </li>
+              <li><strong>Công nghệ:</strong> HTML, CSS.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="section" id="contact">
+          <h2 class="section-title">Liên hệ</h2>
+          <div class="section-content">
+            <ol>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/hoangbinhBalpha?mibextid=ZbWKwL"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a target="_top" href="#">Linkedin</a>
+              </li>
+              <li>
+                <!-- DO KHÔNG CÓ Linkedin và Github nên sử dụng tạm link Youtube ạ  -->
+                <a
+                  href="https://www.youtube.com/channel/UCiihHLTRLFkXgiP6ew7_GKQ"
+                  >Github</a
+                >
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
